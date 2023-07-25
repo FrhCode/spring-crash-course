@@ -1,5 +1,5 @@
 package com.example.demo.algorithm.sorting;
 
-public interface Sorting {
+public interface SortingAlgorithm {
     public int[] sort(int[] numbers);
 }

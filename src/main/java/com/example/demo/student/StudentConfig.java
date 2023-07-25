@@ -22,7 +22,7 @@ public class StudentConfig {
             LocalDate from = LocalDate.of(1999, Month.JANUARY, 1);
             LocalDate to = LocalDate.of(2020, Month.DECEMBER, 1);
 
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 2; i++) {
                 String name = faker.name().fullName();
                 String email = faker.internet().emailAddress();
                 LocalDate date = getRandomDateBetween(from, to);
