@@ -11,13 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping(path = "/api/v1")
 public class DemoApplication {
 
-    @GetMapping
-    public String index() {
-        return "Adm";
-    }
+	@GetMapping
+	public String index() {
+		return "Hello cui";
+	}
 
-    public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
-    }
+	public static void main(String[] args) {
+		SpringApplication.run(DemoApplication.class, args);
+	}
 
 }
